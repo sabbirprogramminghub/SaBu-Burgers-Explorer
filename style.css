@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* Banner Section Start */
+.berger-head {
+  background-image: url(image/banner-bg.jpg);
+  height: 46.3vw;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.br-nav {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-logo img {
+  height: 9vw;
+  width: 9vw;
+  margin-left: 3vw;
+  margin-top: -1vw;
+}
+.nav-item {
+  margin-top: 2vw;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-ul li {
+  list-style: none;
+}
+.nav-ul li a {
+  color: white;
+  padding: 0vw 2vw;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+.nav-ul li a:hover {
+  color: #e1372a;
+}
+/* Nav Section End */
+.br-hd-text {
+  margin: 4vw;
+}
+.br-hd-text h1 {
+  font-size: 3.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.br-hd-text h3 {
+  font-size: 2vw;
+  color: white;
+  margin-top: 1vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+#text-btn {
+  margin-top: 2vw;
+}
+#text-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #e1372a;
+  padding: 0.5vw 2vw;
+  border-radius: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+#text-btn a:hover {
+  color: black;
+}
+/* Banner Section End */
+/* About Section Start */
+.about {
+  display: flex;
+  background-color: #101010;
+}
+#about-text {
+  width: 50%;
+  margin: 6vw 4vw;
+}
+#about-text h1 {
+  font-size: 2.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#about-text p {
+  color: white;
+  margin-top: 1.5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+#ab-tx-btn {
+  margin-top: 2vw;
+}
+#ab-tx-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #e1372a;
+  padding: 0.5vw 2vw;
+  border-radius: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+#ab-tx-btn a:hover {
+  color: black;
+}
+#about-img img {
+  background-size: cover;
+  height: 40vw;
+  width: 50vw;
+  object-fit: contain;
+  background-position: center;
+}
+/* About Section End */
+/* Menu Section Start */
+.menu {
+  background-color: #101010;
+}
+.menu h1 {
+  font-size: 2.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 3vw;
+}
+#menu-all {
+  display: flex;
+  justify-content: center;
+}
+.menu-item {
+  width: 25vw;
+  margin: 1vw;
+  margin-bottom: 6vw;
+}
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 2vw;
+}
+.menu-item h3 {
+  font-size: 1.7vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1vw;
+}
+.menu-item p {
+  color: white;
+  margin: 1vw 0vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 1.3vw;
+  text-align: justify;
+}
+/* Menu Section End */
+/* Reservation Section Start */
+.reservation {
+  background-color: rgb(49, 48, 48);
+  padding: 7vw 20vw 4vw 20vw;
+}
+#re-box {
+  background-color: rgb(84, 82, 82);
+  border-radius: 2vw;
+}
+#re-box h1 {
+  padding-top: 3vw;
+  text-align: center;
+  font-size: 2vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#re-form {
+  margin: 1vw;
+}
+#re-form input {
+  margin: 0.7vw;
+  height: 3vw;
+  width: 55vw;
+  font-size: 1.3vw;
+}
+#re-form textarea {
+  resize: none;
+  margin: 0.7vw;
+  width: 55vw;
+  height: 10vw;
+  font-size: 1.3vw;
+}
+#re-form button {
+  color: white;
+  padding: 0.7vw 2.3vw;
+  background-color: #e1372a;
+  border: none;
+  border-radius: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  display: inline-block;
+  margin: 1.5vw 0vw 3vw 25vw;
+}
+#re-form button:hover {
+  color: black;
+}
+/* Reservation Section End */
+/* Comment Section Start */
+.customer-cmnt {
+  background-color: #070e16;
+  padding-bottom: 5vw;
+}
+.customer-cmnt h1 {
+  padding-top: 5vw;
+  text-align: center;
+  font-size: 2.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cust-profile {
+  margin: 4vw 22vw 0vw 22vw;
+}
+.cust-profile img {
+  height: 10vw;
+  width: 10vw;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.cust-profile p {
+  font-size: 1.5vw;
+  color: white;
+  margin-top: 1vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  text-align: justify;
+}
+.cust-profile h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0.5vw;
+  font-size: 1.5vw;
+  margin-top: -0.5vw;
+}
+/* Comment Section End */
+/* Gellery Section Start */
+.gallery {
+  background-color: #101010;
+}
+.gallery h1 {
+  padding-top: 6vw;
+  padding-bottom: 3vw;
+  text-align: center;
+  font-size: 2.5vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#gallery-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+#gallery-img img {
+  height: 30vw;
+  width: 20vw;
+  padding: 1vw;
+  object-fit: cover;
+  border: 0.2vw solid gainsboro;
+}
+/* Gellery Section End */
+/* Contact Sectioin Start */
+.contact {
+  background-color: rgb(84, 82, 82);
+}
+#contact-box {
+  text-align: center;
+}
+#contact-box h1 {
+  padding-top: 5vw;
+  font-size: 2.5vw;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cntc-li {
+  padding: 1vw 0vw 2vw 27vw;
+}
+#cntc-li ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.2vw;
+}
+#cntc-li li {
+  padding: 1vw;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+}
+#cntc-form {
+  padding-bottom: 5vw;
+}
+#cntc-form input {
+  margin: 0.7vw;
+  height: 3vw;
+  width: 50vw;
+  font-size: 1.3vw;
+}
+#cntc-form textarea {
+  resize: none;
+  margin: 0.7vw;
+  width: 50vw;
+  height: 8vw;
+  font-size: 1.3vw;
+}
+#cntc-form button {
+  color: white;
+  padding: 0.7vw 2.3vw;
+  background-color: #e1372a;
+  border: none;
+  border-radius: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  display: inline-block;
+  margin-top: 2vw;
+}
+#cntc-form button:hover {
+  color: black;
+}
+/* Contact Sectioin End */
+/* Footer Section Start */
+.footer {
+  background-color: #070e16;
+  padding-bottom: 1vw;
+}
+#footer-logo {
+  text-align: center;
+}
+#footer-logo img {
+  height: 18vw;
+  width: 18vw;
+}
+#footer-nav {
+  display: inline-block;
+  margin-left: 25vw;
+  margin-top: -2vw;
+}
+#footer-c p {
+  padding-top: 5vw;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  font-size: 1.3vw;
+}
+/* Footer Section End */
